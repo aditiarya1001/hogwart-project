@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Legendary Runes Free Trial";
+    src: url("/font/Legendary Runes Free Trial.otf");
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Legendary Runes Free Trial", sans-serif;
+    letter-spacing: 2px;
+  }
+ body{
+  background-image: url("./images/potter.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+ }
+
+ .nav-top{
+  display:block;
+  flex-direction: row;
+  margin: 5px auto;
+  padding: 10px;
+ }
+ .navbar{
+  border-radius: 10px;
+ }
+ .bg-dark{
+  background-color: black;
+ }
+ .navbar-text{
+  justify-content: space-between;
+  align-items: right;
+  color: rgb(255, 174, 0);
+ }
+ 
